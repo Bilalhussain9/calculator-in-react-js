@@ -16,12 +16,16 @@ function App() {
     }
   };
   return (
-    <div className="row">
-      <div className="col-6">
-        <div className="card">
+    <div className="row justify-content-center mt-5">
+      <div className="col-2">
+        <div className="card text-center">
+          <div className="card-body row ">
+            <div className="col-12">
           <Display datashareto={sharedata} />
-          <div className="card-body">
+
             <ButtonContainer buttonclik={whichbuttonclik}></ButtonContainer>
+
+            </div>
           </div>
         </div>
       </div>
